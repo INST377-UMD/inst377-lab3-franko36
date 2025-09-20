@@ -1,0 +1,64 @@
+body {
+    background-color: sandybrown;
+    color: black;
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    background-color: seashell;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.header-footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    color: darkblue;
+}
+
+.submit-button.color-box:hover{
+    color: darkslategray
+}
+
+.container{
+    display: flex;
+    gap: 1%;
+}
+
+#main{
+    background-color:lightgreen;
+    align-self: flex-start;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 100px;
+    width: 200%;
+}
+#Name:focus{
+    width: 100%;
+}
+
+#sidebar:hover{
+    background-color: red;
+}
+
+#sidebar{
+    background-color: lightskyblue;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 150%;
+}
